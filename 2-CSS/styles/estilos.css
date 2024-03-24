@@ -1,0 +1,23 @@
+/* reglas de estilos
+selector {
+    propiedades1 :valor;
+    propiedades2 :valor;
+    propiedades3 :valor;
+} */
+/* *{ CODIGO HEXADECIMAL 
+    background-color: red;/* 
+} */
+/* clases */
+.borde {border: 0.1em dashed blue;}
+
+
+div {background-color: rgb(179, 255, 0);}
+ 
+h3  {background-color:orange; }
+div p{font-size: 10px;}
+p > span {color: red; }
+h2:hover {color:chocolate; }
+span:hover {color:green; }
+
+/* id */
+#mi-elemento {padding: 50px; }
