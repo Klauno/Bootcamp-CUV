@@ -1,0 +1,27 @@
+*{
+    background-color: white;
+}
+.panarriba{
+    background-color: rgb(230, 198, 158);
+    height: 80px;
+    border-radius: 80px 80px 20px 20px;
+    border-bottom: 11px solid ;color: rgb(163, 142, 117);
+    margin: 200px 350px 0px 350px;
+    
+}
+.salchicha {
+    background-color: rgb(179, 68, 68);
+    height: 100px;
+    border-radius:  50px;
+    border-bottom: 3px;
+    margin: 0px 300px 0px 300px;
+    
+}
+.panabajo{
+    background-color:rgb(230, 198, 158);
+    height: 80px;
+    border-radius: 20px 20px 80px 80px;
+    border-top: 11px solid ;color:  rgb(163, 142, 117);
+    margin: 0px 350px 200px 350px;
+    
+}
