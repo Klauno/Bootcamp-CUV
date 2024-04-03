@@ -37,8 +37,13 @@ p{
     justify-content: center;
 }
 
-.img{margin: 3px 3px 3px 3px;
+.img{
+    width: 20%;
+    height: 20%;
+    margin: 30px;
+
 }
+
 
 .botones{flex-wrap: wrap;
     justify-content: center;
