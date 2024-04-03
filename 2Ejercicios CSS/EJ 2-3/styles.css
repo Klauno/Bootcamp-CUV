@@ -1,0 +1,78 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h1{color: white;}
+h3{color: burlywood;}
+
+/* Estilos para el Imperio */
+.Imperio {
+    background-color: red;
+  }
+  
+  /* Estilos para los Rebeldes */
+  .Rebeldes {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Estilos para Darth Vader */
+  #Darth {
+    font-size: 24px;
+  }
+  
+  /* Estilos para Luke */
+  #Luke {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  
+  /* Estilos para los Soldados */
+  .Soldados {
+    border: 2px dashed rgb(173, 235, 15);
+    letter-spacing: 7px;
+    color: white;
+    background-color: red;
+  }
+  .subtitulos_imperio{
+    color: white;
+    background-color: red;
+  }
+
+  .subtitulos_imperio2{
+    color: white;
+    background-color: red;
+  }
+  /* Estilos para Apoyo */
+  .Apoyo {
+    text-align: center;
+    color:black;
+    background-color: darkgoldenrod;
+  }
+  
+  /* Estilos para las Naves */
+  .Naves {
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+  }
+  
+  /* Estilos para los Droides */
+  .Droides img {
+    display: block;
+    margin: 0 auto;
+    
+  }
+  #originales{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: red;
+  }
+  li{list-style: none;}
+  ul{list-style: none;}
+  img {
+    height: 200px;
+    width: auto;
+}

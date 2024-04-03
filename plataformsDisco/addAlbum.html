@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Álbum</title>
+    <link rel="stylesheet" href="estilos/stylealbum">
+
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="Nuevo Album">
+                <img src="album.png" alt="albumfoto">
+                <h1>Nuevo Álbum</h1>
+            </div>
+            <div class="sidebar-from">
+                  <form>
+                     <label for="titulo">Título:</label>
+                      <input type="text" id="titulo" name="titulo" required>
+                    <br>
+                     <label for="lanzamiento"> Año de lanzamiento del álbum:</label>
+                     <input type="number" min="1900" max="2100"
+                       id="lanzamiento" name="lanzamiento" required>
+                       <br>
+                     <label for="descripcion">Descripción:</label>
+                       <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                     <br>
+                      <label for="imagen">Imagen (URL):</label>
+                     <input type="url" id="imagen" name="imagen" placeholder="Introduce la URL de la imagen" required>
+                     <br>
+                        <input type="submit" value="Guardar">
+                 </form>
+             </div>
+
+           </div>
+        </aside>
+        </div>
+        <main class="main-content">
+            <!-- Aquí iría el contenido principal de tu página -->
+            <h1>Proyecto 1</h1>
+            <p>Contenido principal...</p>
+        </main>
+</body>
+</html>

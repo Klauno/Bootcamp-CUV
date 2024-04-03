@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(204, 189, 218);
+}
+
+div{display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+    
+h1{
+    font-size: 40px;
+    font-family:"Caveat",cursive;
+    text-transform: uppercase;
+    border-bottom: solid 2px red;
+    width: 16%;
+    padding-bottom: 5px;   
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contenedorfotografa{flex-direction: column;
+    background-color: rgb(153, 127, 179);
+    margin: 50px 300px 0px 300px;
+    border-radius: 20px;
+    text-align:center;
+}
+
+.contenedorgaleria{padding: 20px;
+    background-color: rgb(81, 45, 115);
+    border-radius: 20px;
+    margin: 50px 200px 50px 200px;}
+
+.gallery{flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{margin: 3px 3px 3px 3px;
+}
+
+.botones{flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+   
+

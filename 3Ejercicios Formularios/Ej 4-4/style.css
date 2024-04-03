@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/490747664/es/foto/gray-perro-patr%C3%B3n-de-repetici%C3%B3n-de-fondo-de-azulejos.jpg?s=1024x1024&w=is&k=20&c=F5Cm65jQFGfGSm4gXR1iOxOAqkTSsI16meTSHxNhgJY=);
+    
+    
+}
+iframe{ 
+    border: 8px solid rgb(48, 2, 60); 
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(65, 0, 110);
+    font-size: x-large;
+}
+div{
+    text-align: center;
+    font-size: medium;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+    color: rgb(92, 13, 167);
+}

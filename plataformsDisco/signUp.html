@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="estilos/stilesignup.css">
+</head>
+<body>
+    <div class="register-form">
+    <h3>Registro</h3>
+    <form action="formulario.php" method="get">
+        <div class="register-form label">
+            <h4>Nombre</h4>
+            <label for="nombre">
+            <input  type="text"
+                  placeholder="Nombre" 
+                  minlength="3"
+                  maxlength="10" 
+                  id="nombre"
+                  name="nombre-usuario"
+                  required/>
+        </label>
+        <h4>Apellido</h4>
+        <label for="apellido">
+            <input  type="text"
+                    placeholder="Apellido" 
+                    minlength="3"
+                    maxlength="10" 
+                    id="apellido"
+                    name="apellido-usuario"
+                    required/>     
+        </label>
+        
+        <h4>Contraseña</h4>
+        <label>
+            <input type="password" placeholder="Password" name="usuario_contrasena"required/>
+        </label>
+        <h4>Correo Electronico</h4>
+        <label><input type="email" placeholder="Email" required/>
+        </label>
+    </div>
+        <div class="register-form button">
+        <button type="submit">enviar</button>
+    </div>
+    </form>
+</div>
+</body>
+</html>

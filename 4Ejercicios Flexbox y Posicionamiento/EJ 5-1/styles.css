@@ -1,0 +1,39 @@
+div{
+    border: 3px solid #092454 ;
+    height: 150px;
+    display: flex;
+}
+#contenedor1{
+    background-color:#e69ef2 ;
+    position: static;
+}
+#contenedor2{
+    height: 150px;
+    background-color:#62d0ff ;
+    position: relative;
+    top: 50px;
+    left:100px ;
+}
+#contenedor3{
+    width: 25%;
+    bottom: 50px;
+    right: 100px;
+    background-color: #ced5db ;
+    position: fixed;
+    z-index: 2;
+}
+#contenedor4{
+    background-color: #85e38d;
+    position: relative;
+}
+#contenedor5{
+    height: 25%;
+    width: 25%;
+    border: 3px solid #092454;
+    background-color: #d4c200;
+    position: absolute ;
+    top: 30px;
+    left: 15px;
+}
+          
+
