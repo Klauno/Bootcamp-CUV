@@ -1,0 +1,25 @@
+function contarPositivos() {
+    let contadorPositivos = 0;
+    let numero;
+
+    while (true) {
+        numero = parseInt(prompt("Ingresa un número entero (ingresa un número negativo para terminar):"));
+
+        if (isNaN(numero)) {
+            alert("Por favor, ingresa un número válido.");
+            continue;
+        }
+
+        if (numero < 0) {
+            break;
+        }
+
+        if (numero > 0) {
+            contadorPositivos++;
+        }
+    }
+
+    alert(`Ingresaste ${contadorPositivos} número(s) positivo(s).`);
+}
+
+contarPositivos();

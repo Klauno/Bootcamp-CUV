@@ -2,52 +2,47 @@ body{
     background-color: rgb(204, 189, 218);
 }
 
-div{display: flex;
+div{
     align-items: center;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
+   justify-content:center
+   
     
 }
+.encabezado{display: flex;
+    flex-direction: column;
     
-h1{
+
+}
+.fotog{
+    align-items: center;
+    width  :30% ;
+    margin : 1.4%;
+    display: flex;
+}   
+
+#titulo{text-align: center;
     font-size: 40px;
     font-family:"Caveat",cursive;
     text-transform: uppercase;
     border-bottom: solid 2px red;
-    width: 16%;
-    padding-bottom: 5px;   
+    
+    padding-bottom: 20px;   
 }
 p{
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.contenedorfotografa{flex-direction: column;
-    background-color: rgb(153, 127, 179);
-    margin: 50px 300px 0px 300px;
-    border-radius: 20px;
-    text-align:center;
+img{
+    width  :25% ;
+    margin: 3%;
+};
+
+.botones{margin-left: 1%;
+    justify-content: center
 }
-
-.contenedorgaleria{padding: 20px;
-    background-color: rgb(81, 45, 115);
-    border-radius: 20px;
-    margin: 50px 200px 50px 200px;}
-
-.gallery{flex-wrap: wrap;
-    justify-content: center;
-}
-
-.img{
-    width: 20%;
-    height: 20%;
-    margin: 30px;
-
-}
-
-
-.botones{flex-wrap: wrap;
-    justify-content: center;
-}
+    
 
 
 

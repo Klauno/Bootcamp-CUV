@@ -1,0 +1,46 @@
+
+//funciones
+let a = 3;
+
+if (a<5) {
+    alert("Es mayor");
+} else {
+
+}
+// DRY = Don t reapeat yorself (no repitas)}
+//Declaro = creo una sola vez
+//FUNCIONES es un bloque de codigos que escribimos una vez, y lo utilizamosTODAS LAS VECES QUE NOSOTROS QUEREMOS
+
+
+// forma de una funcion
+function mi-funcion() {}
+
+no se pueden usar . ni espacios en blanco
+lo mejor camel case
+
+funcion sumar(){
+    let a = 10;
+    let b = 20;
+    let resultado = a + b;
+    alert(resultado);
+}
+
+//1 que funciones
+//2 buenas paracticas
+//3 acortar el codigos
+
+//forma de llamar o utilizar  una funcion sumar(); // ejectando la funcion (intanciar)
+
+if(1 == 1){
+    sumar();
+}
+
+let i = 2;
+white(i >= 1){
+    sumar();
+    i==;
+}
+
+sumar();
+
+crear una funcion que muestre nombre y apellido
