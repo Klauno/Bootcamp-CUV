@@ -1,0 +1,15 @@
+Ejercicio 1
+Sin probar en la consola, pensá que devolverá cada una de estas expresiones. ¿Son true o false?
+
+let x = 10;
+let y = "a";
+y === "b" || x >= 10; DEVUELVE TRUE 
+ 
+let x = 3;
+let y = 8;
+!(x == "3" || x === y) && !(y !== 8 && x <= y); DEVUELVE FALSE
+
+let str = "";
+let msj = "jaja!";
+let esGracioso = "false";
+!((str || msj) && esGracioso); DEVUELVE TRUE

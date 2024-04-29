@@ -1,11 +1,19 @@
-let numeroSecreto = 3;
-let numeroUsuario = parseInt(prompt("Ingrese un numero"));
 
-if (numeroSecreto === numeroUsuario) {
-    alert("Adivinaste")
+// Crear el número secreto
+let numeroSecreto = 42;
+    
+// Pedir al usuario que adivine el número secreto
+let  numeroUsuario = parseInt(prompt("Adivina el número secreto:"));
+    
+// Convertir el input a un número
+numeroUsuario= Number(numeroUsuario);
+    
+// Comparar el número ingresado con el número secreto
+if ( numeroUsuario === numeroSecreto) {
+    alert("¡Felicidades! ¡Adivinaste el número secreto!");
+} else if ( numeroUsuario < numeroSecreto) {
+    alert("El número secreto es mayor.");
 } else {
-    if (numeroSecreto < numeroUsuario) {
-        alert("El numero ingresado es mayor al secreto.")
-    } else {
-        alert("El numero ingresado es menor al secreto.")
-    }   
+     alert("El número secreto es menor.");
+}
+        

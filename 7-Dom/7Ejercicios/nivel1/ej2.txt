@@ -1,0 +1,12 @@
+Escribí en tu consola estas expresiones teniendo en cuenta el valor que deben retornar:
+
+Que compare 2 Strings y retorne un valor true.
+Que compare 2 Strings y devuelva false.
+Que involucre un String y un Número y retorne false.
+Que involucre un String y un Número y retorne true.
+
+"hello" === "hello"; // true
+"hello" === "world"; // false
+"5" === 5; // false (comparación de valor, pero los tipos son diferentes)
+"5" == 5; // true (comparación de valor después de la conversión de tipo)
+

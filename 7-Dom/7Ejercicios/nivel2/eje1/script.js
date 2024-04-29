@@ -1,32 +1,30 @@
-// Ejercicio 1
-// Sentencia if que siempre ejecuta su bloque de código
-if (true) {
-    console.log("Este bloque siempre se ejecuta");
+if ( 2 < 6 ) {
+    alert("El primer número es menor que el segundo.")
 }
 
-// Sentencia if que nunca ejecuta su bloque de código
-if (false) {
-    console.log("Este bloque nunca se ejecuta");
+if ( "blanco" === "negro" ) {
+alert("esto no se ejecuta");
 }
 
-// Preguntar al usuario cómo está y dar un mensaje de aliento si está "triste"
-let estado = prompt("¿Cómo estás?");
-if (estado.toLowerCase() === "triste") {
-    console.log("No te preocupes, todo va a mejorar.");
+let sentencia = prompt("¿Cómo estás?").toLowerCase;
+if (sentencia === "triste") {
+alert("No estés triste, la inflación parece estar bajando.");
 }
 
-// Preguntar al usuario cuál es el número secreto y advertirle si está equivocado
-let numeroSecreto = 7;
-let adivinanza = parseInt(prompt("¿Cuál es el número secreto?"));
-if (adivinanza !== numeroSecreto) {
-    console.log("Lo siento, ese no es el número secreto.");
-}
-
-// Pedir al visitante que ingrese una contraseña y redirigirlo si es correcta
-let contrasena = prompt("Por favor, ingrese la contraseña:");
-if (contrasena === "contrasena_secreta") {
-    console.log("Redireccionando...");
-    
+let numeroSecreto = 4;
+let numeroUsuario = parseInt(prompt("¿Cual es el número secreto?"));
+if (numeroSecreto =! numeroUsuario )
+{
+    alert("Número incorrecto.")
 } else {
-    console.log("Contraseña incorrecta.");
+    alert("adivinaste!");
+}
+
+let contrasenaIngresada = prompt("Ingrese contraseña: ");
+let contrasena = "max123";
+if( contrasena == contrasenaIngresada)
+{
+    window.location = "http://www.google.com";
+} else {
+    alert("Contraseña errónea");
 }
