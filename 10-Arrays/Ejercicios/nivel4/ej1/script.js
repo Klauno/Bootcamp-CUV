@@ -19,6 +19,6 @@ function fibonacci(posicion) {
 }
 
 // Pruebas de la función fibonacci
-console.log("Fibonacci (2):", fibonacci(2)); // 1
-console.log("Fibonacci (5):", fibonacci(5)); // 3
-console.log("Fibonacci (8):", fibonacci(8)); // 21
+alert("Fibonacci (2):", fibonacci(2)); // 1
+alert("Fibonacci (5):", fibonacci(5)); // 3
+alert("Fibonacci (8):", fibonacci(8)); // 21

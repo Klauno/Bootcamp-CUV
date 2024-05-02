@@ -16,6 +16,4 @@ const mix = [
 
 let soloStrings = mix.filter(item => typeof item === 'string');
 
-console.log(soloStrings);
-// Debería mostrar
-// [ 'Ut vero.', 'Diam rebum nonumy et.', 'Kasd stet.', 'Sit et dolor.', 'Dolore.' ]
+alert(soloStrings);

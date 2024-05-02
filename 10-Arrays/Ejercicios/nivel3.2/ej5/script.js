@@ -11,5 +11,5 @@ let playlistEscuchada = ["The Pretender", "Lithium", "Come As You Are"];
 
 let playlistSinEscuchar = playlist.filter(song => !playlistEscuchada.includes(song));
 
-console.log(playlistSinEscuchar);
+alert(playlistSinEscuchar);
 
